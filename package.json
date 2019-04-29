@@ -5,5 +5,9 @@
   "main": "index.js",
   "repository": "https://github.com/syjkim0125/typechain",
   "author": "Tora",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
 }
